@@ -69,21 +69,7 @@ btnNext.addEventListener('click',function(){
     slideRoll[bnnNum].classList.add('on');
 });
 
-// prev 버튼
-// btnPrev.addEventListener('click', function(){
-//     bnnNum--;
-//     if(bnnNum<0)bnnNum=lastNum
 
-//     slide.forEach(item =>{
-//         item.classList.remove('active');
-//     });
-//     slide[bnnNum].classList.add('active');
-
-//     slideRoll.forEach(idx =>{
-//         idx.classList.remove('on');
-//     });
-//     slideRoll[bnnNum].classList.add('on');
-// });
 btnPrev.addEventListener('click', () => {
     bnnNum--;
     if(bnnNum<0){
