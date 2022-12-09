@@ -3,10 +3,12 @@
 /* container */
 #container{background-image: none;}
 /* spot */
-.spot{background: url(../images/careers_visual_img.jpg) no-repeat 50% 0;color:#fff;}
-.spot_inner>h2{font-size: 46px;margin-bottom: 15px;}
+
+.spot{background: url(../images/careers_visual_img.jpg) no-repeat 50% 0;color:#fff;
+    height: 320px;}
+.spot_inner>h2{font-size: 50px;}
 .spot_inner>p{font-size: 16px;color:#fff;}
-.spot_inner>p.path{position:absolute;bottom:20px;right:0;text-align: right;font-size: 14px;color:#ccc;}
+.spot_inner>p.path{position:absolute; top: 290px;right:0;text-align: right;font-size: 14px;color:#ccc;}
 
 /* content */
 p.info_txt{text-align: right;margin-bottom: 10px;}

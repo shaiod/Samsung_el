@@ -7,20 +7,31 @@
     padding-bottom: 20px;margin-bottom: 20px;}
 .foot_inner>div:first-of-type:after{content:"";display: block;clear: both;}
 .foot_inner>div:first-of-type>ul:first-of-type{float:left;}
-.foot_inner>div:first-of-type>ul:first-of-type>li{position: relative;padding-right:20px;margin-left: 20px;}
+.foot_inner>div:first-of-type>ul:first-of-type>li{position: relative;
+    right: 10px;
+    padding-right:20px;padding-left: 20px;}
+.foot_inner>div:first-of-type>ul:first-of-type>li:first-of-type{
+    right: 10px; padding-right: 20px;
+}
 .foot_inner>div:first-of-type>ul:first-of-type>li:after{content:"";
 position:absolute;right:0;top:50%;margin-top: -5px;width:1px;height: 14px;background: #999;}
 .foot_inner>div:first-of-type>ul:first-of-type>li:last-child:after{display:none;}
 
 .foot_inner>div:first-of-type>ul:last-of-type{float:right;}
 .foot_inner>div:first-of-type>ul:last-of-type>li{margin-left:15px;}
-.foot_inner>div:first-of-type>ul:last-of-type>li>a{display:block;width:21px;height: 19px;
+.foot_inner>div:first-of-type>ul:last-of-type>li>a{display:block;width:30px;height: 20px;
     background: url(../images/sns_link_ico.png) no-repeat 0 0;text-indent:-9999px;overflow: hidden;}
+
 .foot_inner>div:first-of-type>ul:last-of-type>li:first-child>a{background-position-x:0;}
 .foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(2)>a{background-position-x:-30px;}
-.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(3)>a{background-position-x: -60px;}
-.foot_inner>div:first-of-type>ul:last-of-type>li:last-child>a{background-position-x: -90px;}
-
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(3)>a{background-position-x: -58px;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(4)>a{background-position-x: -90px;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(5)>a{background-image:url(../images/footer_mark2.png) ;
+    background-size: cover;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-child(6)>a{background-image:url(../images/footer_mark1.png);
+    width: 25px; height: 25px;
+    background-size: cover;
+    position: relative; bottom: 2px;}
 .foot_inner>div:last-of-type>ul{float:left;margin-bottom: 20px;}
 .foot_inner>div:last-of-type>ul>li{margin-right: 30px;}
 .foot_inner>div:last-of-type>ul>li>a{color:#ccc;}

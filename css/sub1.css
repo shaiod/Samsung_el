@@ -6,7 +6,8 @@
 .spot{background: url(../images/faq_visual_img.jpg) no-repeat 50% 0;color:#fff;}
 .spot_inner > h2{font-size: 46px;margin-bottom:15px;}
 .spot_inner > p{font-size: 16px;color:#eee;}
-.spot_inner > p.path{padding-top:70px;text-align: right;font-size:14px;color:#ccc;}
+.spot_inner > p.path{position: relative; bottom: 10px;
+    padding-top:70px;text-align: right;font-size:14px;color:#ccc;}
 
 /* content */
 #content h3{font-size: 36px;color:#000;font-weight: bold;}
@@ -15,8 +16,9 @@
 
 /* faq */
 div.faq{display:flex;justify-content:space-between;width:100%;padding: 20px 30px;box-sizing: border-box;
-    border: 1px silid #ccc;margin-bottom: 60px;}
-div.faq > p{font-size:16px;line-height: 45px;}
+    margin-bottom: 60px; margin-top: 100px;
+    border: 1px solid #ccc;box-sizing: border-box;}
+div.faq > p{font-size:16px;line-height: 45px; }
 div.faq > a{display:block;width: 160px;height: 45px;
     background: #043285 url(../images/btn_arrow_ico_w.png) no-repeat 90% 50%;
     color:#fff;font-size: 16px;text-align: center;line-height: 45px;}
@@ -93,10 +95,11 @@ div.faq > a{display:block;width: 160px;height: 45px;
     margin: 0 auto;border: none;
     background: #043285 url(../images/btn_arrow_ico_w.png) no-repeat 75% 50%;
     color:#fff;text-align: center;
-    cursor: pointer;}
+    cursor: pointer;
+    margin-bottom: 80px;}
 
 
-
+div.agree{background-color: #fff;}
 /* btn_top */
 a.btn_top{
     z-index: 100;position: fixed;
