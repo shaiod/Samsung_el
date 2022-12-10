@@ -8,9 +8,10 @@
     height: 320px;}
 .spot_inner>h2{font-size: 50px;}
 .spot_inner>p{font-size: 16px;color:#fff;}
-.spot_inner>p.path{position:absolute; top: 290px;right:0;text-align: right;font-size: 14px;color:#ccc;}
+.spot_inner>p.path{position:absolute; top: 290px;right: 10px; text-align: right;font-size: 14px;color:#ccc;}
 
 /* content */
+#content{ margin-top: 50px;}
 p.info_txt{text-align: right;margin-bottom: 10px;}
 
 table.job{width: 100%;margin-bottom:60px;}

@@ -1,6 +1,7 @@
 /* footer.css */
 
 /* footer */
+#footer{height: 200px;}
 .foot_inner li{float:left;}
 .foot_inner li a{color:#fff;}
 .foot_inner>div:first-of-type{width:100%;border-bottom:1px solid #6c6f73;
